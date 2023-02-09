@@ -3,7 +3,7 @@ import { Navigate, Routes , Route, Outlet } from "react-router-dom";
 
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard'
-import SignIn from './pages/SignIn';
+import SignIn from './pages/Auth/SignIn';
 import AuthGuard from './utils/route-guard/AuthGuard';
 import GuestGuard from './utils/route-guard/GuestGuard';
 
